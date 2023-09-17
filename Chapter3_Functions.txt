@@ -1,0 +1,21 @@
+FUNCTIONS
+
+-- 24/9/23 --
+**Switch Statements** pg 37
+Switch statements by their nature are larger than one block or function, and
+also its hard to make a switch statement that does one thing;
+if we have to use a switch statement we should make sure that each switch 
+statement is buried in a low level class and is never repeated. we do this with
+polymorphism. 
+(N) how implement a switch statement in clean way? how to make sure we did it
+in the right way? 
+TODO: Single Responsibility Principle (SRP)
+TODO: Open Closed Principle (OCP)
+the soloution to this problem is to bury the switch statement in the basement
+of an Abstract Factory, and never let anyone see it again.
+the general rule for switch is they can be tolerated if they appear only once,
+are used to create polymorphic objects, and  are hidden behind an inheritanc 
+relationship so that the rest of system can't see it.
+
+**Use Descriptive Names**
+in function names, better name describes what the function does.
